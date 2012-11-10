@@ -3,9 +3,9 @@ require 'globals.php';
 require 'oauth_helper.php';
 
 // Fill in the next 3 variables.
-$request_token='AFFD3Sfd5l8sd3Ez1CAm2A2daFg1EafdeeCe245Q';
-$request_token_secret='kjreklwxkljwqerj23kljsASDFwerd8Adfxcfre19';
-$oauth_verifier= '1122333';
+$request_token='hGoC2TlYazvKsCbUWaZCF4pOGqw7zREOK9PJYIxWNBs';
+$request_token_secret='OY8KBGN9OT6bgunmHU0IJPQ9RgVHfjpUSaDFrIAJ4';
+$oauth_verifier= '9764630';
 
 // Get the access token using HTTP GET and HMAC-SHA1 signature
 $retarr = get_access_token(OAUTH_CONSUMER_KEY, OAUTH_CONSUMER_SECRET,
