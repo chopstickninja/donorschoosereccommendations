@@ -8,7 +8,7 @@ define('OAUTH_CONSUMER_KEY', 'pzlXgEyiM7Qo9DDwSk0T6w');
 define('OAUTH_CONSUMER_SECRET', 'IdngiQo4MzO3NboRgmLQvknw1dVHF1wZQAqDhWRN0E0');
 
 $progname = $argv[0];
-$debug = 0; // Set to 1 for verbose debugging output
+$debug = 1; // Set to 1 for verbose debugging output
 
 function logit($msg,$preamble=true)
 {
