@@ -42,23 +42,21 @@
       <a href="index.html"><div id="logo" class="span6"><h1>Donors Choose Recommendation Engine</h1></div></a>
       <div class="span3">
         <a href="#aboutModal" role="button" class="btn btn-info" data-toggle="modal">About</a>
-        <a href="profile.html" role="button" class="btn btn-info">My Profile</a>
+       <a href="profile.html" role="button" class="btn btn-info">My Profile</a>
       </div>
       </div>
     </header>
+    <!-- end header -->
     
-    <!--login form -->
-    <div class="container span9">
-    <div id="login" class="span9">
-    <span class="help-block">Login using your DonorsChooseID, or your social media usernames:</span>
-    <a href="#loginModal" role="button" id="loginDonor" class="btn btn-primary" data-toggle="modal">DonorChoose</a>
-    <a href="#loginModal" role="button" id="loginFacebook" class="btn btn-primary" data-toggle="modal">Facebook</a>
-    <a href="#loginModal" role="button" id="loginTwitter" class="" data-toggle="modal"><img src="bootstrap/img/twitter-sign-in.png"></a>
+    <!-- start projects -->
+    <div id="results" class="container span9">
+      <h2>Results</h2>
+      <table id="projects">
+        
+      </table>
     </div>
-    <div id="submit" class="span9">
-    <a class="btn btn-success btn-block" href="projects.html">See my projects</a>
-    </div>
-    </div>
+    
+
     
     <!--about modal -->
     <div id="aboutModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" aria-hidden="true">
@@ -81,17 +79,7 @@
       </div>
     </div>
     <!--end about modal-->
-    <!--login modal -->
-    <div id="loginModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="aboutModalLabel" aria-hidden="true">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-        <h3 id="aboutModalLabel">Sign in</h3>
-      </div>
-      <div class="modal-footer">
-        <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-      </div>
-    </div>
-    <!--end login modal-->
+
     </div>
   </body>
 </html>
